@@ -39,6 +39,7 @@ const ScrollbarComponent = ({ productName, cardArray, image }) => {
 									state={c.address.state}
 									city={c.address.city}
 									description={c.discription}
+									date={c.date}
 								/>
 							))
 						) : (

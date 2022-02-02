@@ -9,6 +9,7 @@ const ScrollBarComponentCard = ({
 	state,
 	city,
 	description,
+	date,
 }) => {
 	return (
 		<div className={styles.ScrollbarComponentCard}>
@@ -45,11 +46,12 @@ const ScrollBarComponentCard = ({
 					}}
 				>
 					{state}, {city}
-				</b>
-				<b className={styles.headingText1} style={{ fontSize: "13px" }}>
-					Date: 10:12:2021
+					{"  "}
 				</b>
 			</div>
+			<b className={styles.headingText1} style={{ fontSize: "13px" }}>
+				{date}
+			</b>
 			<div className={styles.ScrollbarComponentCardBottom1}>
 				<b className={styles.headingText1} style={{ fontSize: "13px" }}>
 					{description}

@@ -182,7 +182,7 @@
 	flex-direction: column;
 	align-items: stretch;
 	justify-content: space-between;
-	/* margin-left: 5%; */
+	margin-left: 10%;
 	flex-wrap: wrap;
 	max-width: 60%;
 	overflow-wrap: break-word;
